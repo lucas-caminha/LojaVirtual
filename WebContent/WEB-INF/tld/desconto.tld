@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib>
+     <tlibversion>1.0</tlibversion>
+     <jspversion>1.1</jspversion>
+     <shortname>DescontosTag</shortname>
+     <info>Taglib de descontos</info>
+     
+     <tag>
+          <name>desconto</name>  
+          <tagclass>br.com.ucsal.dojo.tag.DescontoTag</tagclass>
+          <bodycontent>JSP</bodycontent>
+          <info>Tag customizada para calcular o Desconto</info>
+		  <attribute>
+	          	<name>preco</name>
+	          	<type>java.lang.String</type>
+	          	<required>true</required>
+	          	<rtexprvalue>true</rtexprvalue>		 
+	          	<dynamic-attributes>true</dynamic-attributes>         
+          </attribute>
+     </tag>
+     
+</taglib>
